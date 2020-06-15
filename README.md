@@ -1,24 +1,18 @@
-# README
+http://localhost:3000/api/v1/sign_up
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+{
+ "user" : {
+ 	"email" : "ask@gmail.com",
+ 	"password": "12345678",
+ 	"password_confirmation": "12345678"
+ }
+}
+-------------------------------------
+http://localhost:3000/api/v1/sign_in
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+{
+ "user": {
+            "email": "ask@gmail.com",
+            "password": "12345678"
+        }
+}
